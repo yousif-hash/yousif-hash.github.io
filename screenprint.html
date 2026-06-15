@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+    Anything you put in between the double-dash arrow symbols shown around
+    this block of text is designated a 'comment' intended for human coders
+    and ignored by the computer. The top "<!DOCTYPE html>" line of code 
+    declares that this text file is to be interpreted as HTML code.
+-->
+
+<html lang=en>
+<!--
+    This opening tag marks the start of the html code.  Everything below
+    until the </html> closing tag is part of this element. "lang" is an
+    attribute defining the language of the website. The value "en" 
+    indicates this site is written in English. We indent the content
+    inside an element to make it easier for people to read and understand.
+-->
+
+    <head>
+    <!--Code *about* the website, NOT displayed in the browser window.-->
+
+        <meta charset="UTF-8"> <!--Sets site to use standard characters.-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Sizes your site to the visitor's screen size -->
+
+        <meta name="author" content="Your Name">
+        <!--
+            Some tags like "meta" are self-closing. They have "attributes" 
+            but no inner content and they don't need or use a closing tag.
+        -->
+
+        <title>Yourname's Projectname</title>
+        <!--The 'title' is what's displayed in the browser tab.-->
+
+        <link rel="stylesheet" href="/style.css">
+        <!--
+            HTML (HyperText Markup Language) code is for the website 
+            content. CSS (Cascading Style Sheets) code is for the website 
+            style. The line above tells the browser the file location and 
+            file name to find this code that you'll write/edit there.
+        -->
+
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <!--
+            If you made/found a favicon, export/name it exactly favicon.png
+            and upload to the top level of your repo, then this line of
+            code will use it as your site icon in the browser tab.
+        -->
+
+    </head>
+
+    <body> <!--Everything to be displayed in the browser window.-->
+          
+        <!--example headings, paragraphs, lists-->
+        <h1>This is the biggest heading (for title, etc)</h1>
+        <p>This is the first paragraph</p>
+        <h2>This is the second biggest heading type</h2>
+        <p>Another paragraph</p>
+        <h2>Another second-biggest-heading</h2>
+        <ul>
+            <li>use ul for bullet point (unordered) lists</li>
+            <li>use ol for numbered (ordered) lists</li>
+        </ul>
+
+        <!--example images (uploaded to repo's "images" directory)-->
+        <img 
+            src="/images/exact_image_name.webp"
+            width="560" 
+            alt="Your description of image in words">
+
+        <!--example video (or other content from another webpage)-->
+        <iframe 
+            src="https://drive.google.com/file/d/FILE_ID/preview"
+            width="560" height="315"
+            allowfullscreen>
+        </iframe>
+        <!-- replace FILE_ID in the example link above with the
+             exact text from the equivalent spot within your 
+             actual video's Google Drive shared link -->
+
+        <!--example links-->
+        <a href="/about.html">Link to page/file on your website</a>
+        <a href="https://github.com" target="_blank">Link to
+            external page on the web (_blank opens in new tab)</a>
+
+    </body>
+</html>
