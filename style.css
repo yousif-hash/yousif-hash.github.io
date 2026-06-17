@@ -1,8 +1,8 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: Arial, sans-serif;
-    max-width: 900px;
+    max-width: 450px;
     margin: auto;
 }
 h1 {
